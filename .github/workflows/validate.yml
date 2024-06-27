@@ -15,6 +15,6 @@ jobs:
 
       - name: Validate
         run: |
-          cd .github
+          cd .github/workflows
           pip3 install PyGithub
           python3 test.py
